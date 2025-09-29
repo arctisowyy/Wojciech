@@ -1,6 +1,6 @@
 // Ścieżki do zdjęć
-const secondImage = "https://cdn.discordapp.com/attachments/1114938873907257354/1422297724103168051/wojciech.png";
-const rejectImage = "https://cdn.discordapp.com/attachments/1114938873907257354/1422299207410389173/image.png";
+const secondImage = "wojciech.png";
+const rejectImage = "image.png";
 
 function handleAccept() {
   document.getElementById('preview').src = secondImage;
@@ -15,3 +15,4 @@ function handleReject() {
   document.getElementById('result').innerHTML =
     `Propozycja odrzucona 💔 <br><span class="sad">Wojciech jest very sad 😢</span>`;
 }
+
