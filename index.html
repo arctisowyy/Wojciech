@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akceptuj lub Odrzuć</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Wybierz, czy akceptujesz propozycję</h2>
+
+    <img id="preview" 
+         src="https://cdn.discordapp.com/attachments/1114938873907257354/1422296232323317921/wojtus.png" 
+         alt="Podgląd zdjęcia">
+
+    <div class="buttons" id="buttons">
+      <button class="accept" onclick="handleAccept()">Akceptuj</button>
+      <button class="reject" onclick="handleReject()">Odrzuć</button>
+    </div>
+
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
